@@ -1,0 +1,20 @@
+
+@import '../style/vars';
+
+.footer {
+    display: grid;
+    height: 100px;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 10px 10px;
+    gap: 10px;
+    text-align: center;
+    background-color: rgba(213, 215, 218, 0.5);
+    font-family: $font;
+}
+    .footer-1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $colorFooter;
+    }
